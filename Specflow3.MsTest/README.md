@@ -1,6 +1,6 @@
-**Motivation**
+# Specflow3 + MsTest
 
- Documentation for reference in future with the setups to integrate Specflow 3 with MSTest.
+> Documentation for reference in future with the setups to integrate Specflow 3 with MSTest.
 
 **Libraries Used**
 
