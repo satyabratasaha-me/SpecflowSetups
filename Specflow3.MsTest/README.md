@@ -8,11 +8,9 @@
 	- Specflow (version 3)
 	- Microsoft.NetCore.App
 
-**Build**
+**Build & Execute**
 
-1. Restore the NuGet Packages using the MsBuild.exe shipped with VS 2019 Community Edition
-
-	- Navigate to the folder containing the MSBuild.exe
+	-  Restore the NuGet Packages using the MsBuild.exe shipped with VS 2019 Community Edition. Navigate to the folder containing the MSBuild.exe
 		
 		```shell
 		cd C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin
@@ -23,13 +21,13 @@
 		```shell
 		MSBuild.exe <path of the csproj file> -t:restore
 		```
-2. Build the project 
+	- Build the project 
 
 		```shell
 		MSBuild.exe <path of the csproj file>
 		```
 
-3.  It's time to execute the tests now.
+	- It's time to execute the tests now.
 
 		```shell
 		dotnet test <path to project dll> --filter TestCategory=<tag(if any)>
@@ -39,7 +37,6 @@
 	
 	-Reporting has been removed in Specflow version 3 onwards 
 	
-		-References - 
 			- Issue `https://github.com/SpecFlowOSS/SpecFlow/issues/1036`
 			- Specflow `https://specflow.org/documentation/Reporting/`
 	
