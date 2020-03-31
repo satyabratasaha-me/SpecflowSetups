@@ -33,7 +33,7 @@
 	dotnet test <path to project dll> --filter TestCategory=<tag(if any)>
 	```
 
-##Execution Report
+## Execution Report
 	
 -Reporting has been removed in Specflow version 3 onwards 
 
