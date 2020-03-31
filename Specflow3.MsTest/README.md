@@ -1,14 +1,14 @@
-** Motivation **
+**Motivation**
 
  Documentation for reference in future with the setups to integrate Specflow 3 with MSTest.
 
-** Libraries Used **
+**Libraries Used**
 
 	- MsTest
 	- Specflow (version 3)
 	- Microsoft.NetCore.App
 
-** Build **
+**Build**
 
 1. Restore the NuGet Packages using the MsBuild.exe shipped with VS 2019 Community Edition
 
@@ -35,7 +35,7 @@
 		dotnet test <path to project dll> --filter TestCategory=<tag(if any)>
 		```
 
-** Execution Report **
+**Execution Report**
 	
 	-Reporting has been removed in Specflow version 3 onwards 
 	
