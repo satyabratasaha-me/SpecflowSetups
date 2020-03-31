@@ -35,7 +35,7 @@
 
 ## Execution Report
 	
--Reporting has been removed in Specflow version 3 onwards 
+- Reporting has been removed in Specflow version 3 onwards 
 
 		- Issue `https://github.com/SpecFlowOSS/SpecFlow/issues/1036`
 		- Specflow `https://specflow.org/documentation/Reporting/`
